@@ -9,6 +9,8 @@ class Tracker(models.Model):
     butt = models.FloatField(null=True)
     thighs = models.FloatField(null= True)
     calves = models.FloatField(null=True)
+    sa_practice = models.BooleanField(null=True)
+    gym_workout = models.BooleanField(null=True)
     code_written = models.FloatField(null=True)
     article_url = models.URLField(null=True)
     spendings = models.JSONField(null=True)
