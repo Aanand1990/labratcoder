@@ -13,6 +13,6 @@ class Tracker(models.Model):
     gym_workout = models.BooleanField(null=True)
     code_written = models.FloatField(null=True)
     article_url = models.URLField(null=True)
-    spendings = models.JSONField(null=True)
+    spending = models.JSONField(null=True)
 
 
