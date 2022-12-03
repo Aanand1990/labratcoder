@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.conf import settings
 from django.contrib import admin
+from django.template.defaulttags import url
 from django.urls import path, include
 from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
-    path('tracker/', include('tracker.urls'))
+    path('tracker/', include('tracker.urls')),
+    path('tinymce/', include('tinymce.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
