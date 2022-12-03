@@ -11,3 +11,6 @@ class Tracker(models.Model):
     calves = models.FloatField(null=True)
     code_written = models.FloatField(null=True)
     article_url = models.URLField(null=True)
+    spendings = models.JSONField(null=True)
+
+
