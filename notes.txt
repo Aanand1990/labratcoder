@@ -7,3 +7,15 @@ Lets host everything on replit.
 This seems amazing and it costs less too.
 Just 7$ per month.
 
+***
+
+Great... I understood git.
+
+git init
+git status
+git add -A
+git commit -m 'message'
+***
+git remote add origin link
+git branch -M main
+git push -u origin main
