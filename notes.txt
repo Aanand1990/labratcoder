@@ -2,3 +2,8 @@ Models created. Working fine.
 
 Needs to create dashboard
 Next step is to add Bootstrap frontend.
+***
+Lets host everything on replit.
+This seems amazing and it costs less too.
+Just 7$ per month.
+

@@ -5,5 +5,6 @@ class Blog(models.Model):
     title = models.CharField(max_length=200)
     subtitle = models.TextField(blank=True)
     pub_date = models.DateTimeField(blank=True)
+    slug = models.SlugField(blank=True, max_length=200)
     body = HTMLField()
 
