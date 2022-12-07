@@ -19,3 +19,28 @@ git commit -m 'message'
 git remote add origin link
 git branch -M main
 git push -u origin main
+
+***
+
+See I want to be great at something very very specific.
+Goal here is to be able to write web application + database model + beautiful front end + kivy mobile app that can use the same database
+
+Thats it. My first goal is to get to that point and use it quickly to create wonderful applications fast.
+
+***
+
+Lets try and focus on one problem only.
+How to build awesome front end.
+
+***
+
+At the very end I am coming to same conclusion. Let's work with bootstrap. Complete the task and
+get it quickly launched to the web.
+
+Then move forward with learning mobile application development.
+
+***
+
+Goal at this stage is quickly learn to develop front end and URL parsing.
+
+
