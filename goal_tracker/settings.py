@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'tracker',
     'blog',
     'tinymce',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
